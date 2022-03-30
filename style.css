@@ -1,0 +1,15 @@
+.main{
+	margin-top:25px;
+}
+.left{
+	display:inline-block;
+	float:left;
+}
+.right{
+	display:inline-block;
+	float:right;
+}
+
+.scavenge .row{
+	height:250px;
+}
