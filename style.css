@@ -1,3 +1,6 @@
+body{
+	background-color:#EBEDEF;
+}
 .main{
 	margin-top:25px;
 }
@@ -8,8 +11,4 @@
 .right{
 	display:inline-block;
 	float:right;
-}
-
-.scavenge .row{
-	height:250px;
 }
