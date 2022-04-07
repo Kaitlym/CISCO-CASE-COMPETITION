@@ -12,6 +12,9 @@
 		<!-- My CSS -->
 		<link rel="stylesheet" href="style.css">
 		
+		<!--AwesomeFont-->
+		<script src="https://kit.fontawesome.com/a71b0175ac.js" crossorigin="anonymous"></script>
+
 		
 		<!--Page Info-->
 		<title>Forewarn</title>
@@ -43,7 +46,7 @@
 							<a class="nav-link active" aria-current="page" href="team.html">Team</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="profile.html">Username</a>
+							<a class="nav-link" href="profile.html">Joyce Pele</a>
 						</li>
 					</ul>
 				</div>
@@ -60,10 +63,10 @@
 						<a class="nav-link" href="community.html">Community</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="submission.html">Submission</a>
+						<a class="nav-link" href="submission.html">Data Entry</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="data.html">Data</a>
+						<a class="nav-link" href="data.html">External Sources</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="education.html">Education</a>
@@ -77,48 +80,54 @@
 			<div class="row">
 				<div class="col-md-9 left">
 					<div class="row mb-2">
-						<div class="col-md-7">
+						<div class="col-md-6">
 							<div class="card h-100 mb-2">
-								<div class="card-header text-primary">
-									Your Team
+								<div class="card-header">
+									<div class="float-start">Your Team</div>
+									<div class="float-end text-muted">3/5</div>
 								</div>
 								<div class="card-body">
 									<div class="row">
-										<div class="col-md-5">
+										<div class="col-md-7">
 											<center>
-												<img src="https://www.clipartmax.com/png/full/207-2070693_we-have-a-professional-it-team-team-icon-png-vector.png" class="rounded-circle" width="200px">
+												<img src="team.jpg" class="rounded" width="200px">
 											</center>
 										</div>
-										<div class="col-md-7">
-											<h5>Team Members</h5>
+										<div class="col-md-5">
 											<p>Joyce Pele</p>
 											<p>Yueyang Wang</p>
 											<p>Kaitlyn Martinez</p>
-											<p>Jessica Dane</p>
+											<p class="text-muted"><small>Add Team Member <i class="fa-solid fa-plus"></i></small></p>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-5">
-							<!-- achievements -->
+						<div class="col-md-6">
 							<div class="card h-100 mb-2">
-								
-								<div class="card-header text-primary">
-									Achievements
+								<div class="card-header">
+									Quarter
 								</div>
 								<div class="card-body">
-									<ul class="list-group">
-										<li class="list-group-item">Timber</li>
-										<li class="list-group-item">Hammer</li>
-										<li class="list-group-item">Stone</li>
-									</ul>
+									<select class="form-select" aria-label="Default select example">
+										<option selected>Quarter 0 (Current)</option>
+										<option value="1">Quarter One</option>
+										<option value="2">Quarter Two</option>
+										<option value="3">Quarter Three</option>
+									</select>
+									<br>
+									<div class="card">
+										<div class="card-body">
+											<h5 class="card-title">No Submission Detected</h5>
+											<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="card mb-2">
-						<div class="card-header text-primary">
+						<div class="card-header">
 							Progress Status
 						</div>
 						<div class="card-body">
@@ -140,28 +149,25 @@
 					</div>
 				</div>
 				<div class="col-md-3 right mb-2">
-					<div class="card h-100 mb-2">
-								
-								<div class="card-header text-primary">
-									Quarter
-								</div>
-								<div class="card-body">
-									<select class="form-select" aria-label="Default select example">
-										<option selected>Quarter 0 (Current)</option>
-										<option value="1">Quarter One</option>
-										<option value="2">Quarter Two</option>
-										<option value="3">Quarter Three</option>
-									</select>
-									<br>
-									<div class="card">
-										<div class="card-body">
-											<h5 class="card-title">No Submission Detected</h5>
-											<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-											<a href="data.html" class="btn btn-primary">Go to Submission</a>
-										</div>
-									</div>
-								</div>
-							</div>
+					<div class="card h-100 mb-2">	
+						<div class="card-header">
+							Achievements
+						</div>
+						<div class="card-body">
+							<ul class="list-group">
+								<li class="list-group-item"><i class="fa-solid fa-tree"></i> Timber</li>
+								<li class="list-group-item"><i class="fa-solid fa-hammer"></i> Hammer</li>
+								<li class="list-group-item"><i class="fa-solid fa-coins"></i> Metal</li>
+								<li class="list-group-item"><i class="fa-solid fa-hill-rockslide"></i> Cement</li>
+								<li class="list-group-item"><i class="fa-solid fa-trowel-bricks"></i> Bricks</li>
+								<li class="list-group-item"><i class="fa-solid fa-water"></i> Water</li>
+								<li class="list-group-item"><i class="fa-solid fa-fire"></i> Fire</li>
+								<li class="list-group-item"><i class="fa-solid fa-bowl-food"></i> Food</li>
+								<li class="list-group-item"><i class="fa-solid fa-shirt"></i> Clothing</li>
+								<li class="list-group-item"><i class="fa-solid fa-kit-medical"></i> First Aid Kit</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 			
