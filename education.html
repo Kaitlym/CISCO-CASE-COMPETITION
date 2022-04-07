@@ -88,7 +88,7 @@
 							<div class="list-group border-0">
 								<a href="https://www.patriotsoftware.com/blog/accounting/year-year-growth-calculate/#:~:text=Year%2Dover%2Dyear%20(YOY,to%20fourth%20quarter%20of%202019)." class="list-group-item list-group-item-action ">
 									<div class="d-flex w-100 justify-content-between">
-										<p>Year-Over-Year (YOY)</p>
+										<b><p>Year-Over-Year (YOY)</p></b>
 										<small>6 days ago</small>
 									</div>
 									<p class="text-muted"><i>Reading and comparing year to year sales.</i></p>
@@ -96,7 +96,7 @@
 								</a>
 								<a href="https://www.salesforce.com/crm/what-is-crm/" class="list-group-item list-group-item-action">
 									<div class="d-flex w-100 justify-content-between">
-										<p>Customer relationship management (CRM)</p>
+										<b><p>Customer relationship management (CRM)</p></b>
 										<small>1 days ago</small>
 									</div>
 									<p class="text-muted"><i>Shifts in the industry markets taste and preferences.</i></p>
@@ -105,7 +105,7 @@
 								<a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc443.htm
 " class="list-group-item list-group-item-action">
 									<div class="d-flex w-100 justify-content-between">
-										<p>Seasonality</p>
+										<b><p>Seasonality</p></b>
 										<small>4 days ago</small>
 									</div>
 									<p class="text-muted"><i>Changes in supply based on the seasonal demand .</i></p>
@@ -113,7 +113,7 @@
 								</a>
 								<a href="https://www.hcmworks.com/blog/what-is-vendor-compliance-and-how-does-it-work#:~:text=Vendor%20compliance%20is%20all%20about,and%20promptly%20if%20they%20arise." class="list-group-item list-group-item-action">
 									<div class="d-flex w-100 justify-content-between">
-										<p>Vendor and Supplier Limitations (Vendor Compliance) </p>
+										<b><p>Vendor and Supplier Limitations (Vendor Compliance) </p></b>
 										<small>2 days ago</small>
 									</div>
 									<p class="text-muted"><i>Limits with vendors based on the supply being demanded.</i></p>
@@ -163,35 +163,34 @@
 							<br>
 							<p>Topics</p>
 							<div class="form-check">
-								<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-								<label class="form-check-label" for="defaultCheck1">
-								Topics 1
+								<input class="form-check-input" type="checkbox" value="" id="defaultCheck0">
+								<label class="form-check-label" for="defaultCheck0">
+								Growth Forcasting
 								</label>
 								<br>
 								<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
 								<label class="form-check-label" for="defaultCheck1">
-								Topics 2
+								Government
 								</label>
 								<br>
-								<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-								<label class="form-check-label" for="defaultCheck1">
-								Topics 3
+								<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								<label class="form-check-label" for="defaultCheck2">
+								Development Indicators
 								</label>
 								<br>
-								<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								<input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+								<label class="form-check-label" for="defaultCheck3">
+								Business Confidence
+								</label>
 								<label class="form-check-label" for="defaultCheck1">
-								Topics 4
+								Global Trends
 								</label>
 								<br>
-								<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-								<label class="form-check-label" for="defaultCheck1">
-								Topics 5
+								<input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+								<label class="form-check-label" for="defaultCheck4">
+								Other
 								</label>
 								<br>
-								<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-								<label class="form-check-label" for="defaultCheck1">
-								Topics 6
-								</label>								
 							</div>
 							<br>
 							<button type="button" class="btn btn-primary">Search</button>
@@ -200,7 +199,58 @@
 				</div>
 			</div>
 		</div>
-		
+		<!--Pop Up Button-->
+		<div class="position-absolute bottom-0 end-0"> 
+			<button type="button" class="btn btn-lg btn-primary mg-2" data-bs-toggle="modal" data-bs-target="#myModal">?</button>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal" id="myModal">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+
+					<!-- Header -->
+					<div class="modal-header">
+					<h4 class="modal-title">Trivia</h4>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+					</div>
+
+					<!-- Body -->
+					<div class="modal-body">
+						<p>What year was Cisco founded?</p>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+							<label class="form-check-label" for="flexRadioDefault1">
+							1979
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+							<label class="form-check-label" for="flexRadioDefault2">
+							1984
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+							<label class="form-check-label" for="flexRadioDefault3">
+							1996
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+							<label class="form-check-label" for="flexRadioDefault4">
+							1994
+							</label>
+						</div>
+					</div>
+
+					<!-- Modal footer -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary float-start" data-bs-dismiss="modal">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!-- JavaScript Imports -->
 		<script src="https://code.s4d.io/widget-space/production/bundle.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
