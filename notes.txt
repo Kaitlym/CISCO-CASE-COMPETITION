@@ -1,0 +1,13 @@
+for(int i=0; i<vertexCount; i++){
+	if(vertexIdentifiers[i].adjacent==nullptr){
+		cout<< vertexIdentifiers[i].label<<"\n";
+	}else{
+		struct edge * temp = vertexIdentifiers[i].adjacent;
+		while(temp!=nullptr){
+			cout<<vertexIdentifiers[i].label<<"\t-\t"<<temp->label<<"\n";
+			edgeCount++;
+			temp=temp->next;
+		}
+	}
+	
+}
