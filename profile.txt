@@ -1,0 +1,8 @@
+name
+picture
+position 
+time spent
+
+recent activity personal
+
+contact info.
